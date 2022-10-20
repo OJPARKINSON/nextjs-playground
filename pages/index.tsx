@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="grid gap-2 grid-cols-9">
           <Card className="bg-white h-80 col-start-1 col-end-6 w-full dark:text-white">
-            <h2>My demo</h2>
+            <h2>My pr test</h2>
           </Card>
           <Card className="h-80 col-start-6 col-end-8 bg-lightBlue p-2">
             <h2 className="text-white">Time</h2>
