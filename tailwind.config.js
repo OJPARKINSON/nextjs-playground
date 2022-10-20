@@ -21,6 +21,9 @@ module.exports = {
       animation: {
         spin: "logoSpin infinite 20s linear",
       },
+      shadow: {
+        lg: "--tw-shadow: 0 1px 1px 3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);	",
+      },
       keyframes: {
         logoSpin: {
           "0%, 100%": { transform: "rotate(0deg)" },

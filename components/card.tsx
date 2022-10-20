@@ -6,7 +6,7 @@ interface CardProps {
 }
 
 export const Card = ({ className: propCss, children }: CardProps) => (
-  <div className={"m-2 p-5 text-left rounded-lg w-full shadow-xl " + propCss}>
+  <div className={"m-2 p-5 text-left rounded-lg w-full shadow-lg " + propCss}>
     {children}
   </div>
 );

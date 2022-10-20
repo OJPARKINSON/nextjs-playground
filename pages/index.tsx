@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-[#f2f2f2] dark:bg-[#060026] h-screen w-screen">
+    <div className="bg-[#f0f0f0] dark:bg-[#060026] h-screen w-screen">
       <div className="flex justify-between h-100 pb-0 p-8">
         <h1 className="w-100 text-xl font-bold dark:text-white">Dashboard</h1>
         <button className="rounded-lg bg-darkBlue text-white p-2">
@@ -20,15 +20,15 @@ export default function Home() {
       </div>
       <div className="m-5">
         <div className="grid gap-4 grid-cols-2 dark:text-white">
-          <Card>
+          <Card className="bg-white">
             <h2>Activity</h2>
           </Card>
-          <Card className="h-80">
+          <Card className="h-80 bg-white">
             <h2>My Calendar</h2>
           </Card>
         </div>
         <div className="grid gap-2 grid-cols-9">
-          <Card className="h-80 col-start-1 col-end-6 w-full dark:text-white">
+          <Card className="bg-white h-80 col-start-1 col-end-6 w-full dark:text-white">
             <h2>My demo</h2>
           </Card>
           <Card className="h-80 col-start-6 col-end-8 bg-lightBlue p-2">
@@ -38,7 +38,7 @@ export default function Home() {
                 `The time is ${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`}
             </p>
           </Card>
-          <Card className="h-80 col-start-8 col-end-10 dark:text-white">
+          <Card className="bg-white h-80 col-start-8 col-end-10 dark:text-white">
             <h2>My tasks</h2>
           </Card>
         </div>
