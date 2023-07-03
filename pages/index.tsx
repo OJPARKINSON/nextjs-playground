@@ -4,6 +4,7 @@ import { Card } from "../components/card";
 
 export default function Home() {
   const [time, setTime] = useState<Date | null>(null);
+
   useEffect(() => {
     fetch("/api/time")
       .then((res) => res.json())
